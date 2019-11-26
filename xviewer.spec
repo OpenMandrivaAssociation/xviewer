@@ -26,6 +26,7 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  shared-mime-info
 BuildRequires:  itstool
+BuildRequires:  intltool
 
 Recommends:       %{name}-plugins
 
