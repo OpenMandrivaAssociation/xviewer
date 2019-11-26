@@ -1,6 +1,6 @@
 Name:           xviewer
-Version:        2.2.1
-Release:        %mkrel 2
+Version:        2.4.0
+Release:        1
 Summary:        Fast and functional graphics viewer
 License:        GPLv2+ and LGPLv2+
 Group:          Graphics/Viewers
@@ -26,7 +26,8 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  shared-mime-info
 BuildRequires:  itstool
-:       %{name}-plugins
+
+Recommends:       %{name}-plugins
 
 %description
 xviewer is a simple graphics viewer for the Cinnamon desktop and
