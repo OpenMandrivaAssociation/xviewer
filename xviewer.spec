@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(librsvg-2.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk-doc)
+BuildRequires:  pkgconfig(xapp)
 BuildRequires:  shared-mime-info
 BuildRequires:  itstool
 BuildRequires:  intltool
