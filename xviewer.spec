@@ -81,5 +81,5 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.*
 
 %files devel
-%{_includedir}/%{name}-3.0/
+#{_includedir}/%{name}-3.0/
 %{_libdir}/pkgconfig/%{name}.pc
