@@ -7,6 +7,7 @@ Group:          Graphics/Viewers
 Url:            https://github.com/linuxmint/xviewer
 Source:         https://github.com/linuxmint/%{name}/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
+BuildRequires:  meson
 BuildRequires:  gnome-common
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  pkgconfig(libjpeg)
@@ -54,13 +55,11 @@ are simplicity and standards compliance.
 %autopatch -p1
 
 %build
-NOCONFIGURE=1 gnome-autogen.sh
-%configure2_5x \
-  --libexecdir=%{_libexecdir}/%{name}
-%make_build
+%meson
+%meson_build
 
 %install
-%make_install
+%meson_install
 %find_lang %{name} --with-gnome
 find %{buildroot} -type f -name "*.la" -delete -print
 
