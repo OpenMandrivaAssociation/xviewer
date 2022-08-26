@@ -77,7 +77,7 @@ fi
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/
 %{_datadir}/glib-2.0/schemas/*.xml
-%{_datadir}/help/C/%{name}/
+#{_datadir}/help/C/%{name}/
 %{_datadir}/icons/hicolor/*/apps/%{name}.*
 
 %files devel
