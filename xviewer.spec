@@ -70,10 +70,10 @@ fi
 
 %files -f %{name}.lang
 %license COPYING
-%doc AUTHORS README
+%doc AUTHORS README*
 %{_bindir}/%{name}
 %{_libdir}/%{name}/
-%{_datadir}/appdata/%{name}.appdata.xml
+#{_datadir}/appdata/%{name}.appdata.xml
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/
 %{_datadir}/glib-2.0/schemas/*.xml
