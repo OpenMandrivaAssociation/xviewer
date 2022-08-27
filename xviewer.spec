@@ -74,7 +74,7 @@ fi
 %doc %{_datadir}/gtk-doc/html/
 %{_bindir}/%{name}
 %{_libdir}/%{name}/
-#{_datadir}/appdata/%{name}.appdata.xml
+%{_datadir}/metainfo/xviewer.appdata.xml
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/%{name}/
 %{_datadir}/glib-2.0/schemas/*.xml
