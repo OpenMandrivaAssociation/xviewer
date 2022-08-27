@@ -71,6 +71,7 @@ fi
 %files -f %{name}.lang
 %license COPYING
 %doc AUTHORS README*
+%doc %{_datadir}/gtk-doc/html/
 %{_bindir}/%{name}
 %{_libdir}/%{name}/
 #{_datadir}/appdata/%{name}.appdata.xml
@@ -81,5 +82,5 @@ fi
 %{_datadir}/icons/hicolor/*/apps/%{name}.*
 
 %files devel
-#{_includedir}/%{name}-3.0/
+%{_includedir}/xviewer/
 %{_libdir}/pkgconfig/%{name}.pc
