@@ -1,5 +1,5 @@
 Name:           xviewer
-Version:        3.4.8
+Version:        3.4.9
 Release:        1
 Summary:        Fast and functional graphics viewer
 License:        GPLv2+ and LGPLv2+
